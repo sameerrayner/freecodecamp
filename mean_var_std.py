@@ -15,5 +15,5 @@ def calculate(list):
 
         return calculations
     
-    except ValueError as v:
-        raise ValueError("List must contain nine numbers")from v
+    except ValueError:
+        print("List must contain nine numbers")
