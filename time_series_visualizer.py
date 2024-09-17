@@ -19,7 +19,7 @@ def draw_line_plot():
     ax.set_title('Daily freeCodeCamp Forum Page Views 5/2016-12/2019')
 
     # Save image and return fig (don't change this part)
-    fig.savefig('line_plot.png')
+    fig.savefig('line_plot.png', bbox_inches = 'tight')
     return fig
 
 def draw_bar_plot():
@@ -36,7 +36,7 @@ def draw_bar_plot():
     fig.set_axis_labels('Years','Average Page Views')
 
     # Save image and return fig (don't change this part)
-    fig.savefig('bar_plot.png')
+    fig.savefig('bar_plot.png', bbox_inches = 'tight')
     return fig
 
 def draw_box_plot():
@@ -63,5 +63,5 @@ def draw_box_plot():
 
 
     # Save image and return fig (don't change this part)
-    fig.savefig('box_plot.png')
+    fig.savefig('box_plot.png', bbox_inches = 'tight')
     return fig

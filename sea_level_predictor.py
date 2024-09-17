@@ -31,5 +31,5 @@ def draw_plot():
     ax.legend(['Yearly Average Sea Level','Projected Sea Level (based on rates 1880-2013)','Projected Sea Level (based on rates 2000-2013)'])
     
     # Save plot and return data for testing (DO NOT MODIFY)
-    plt.savefig('sea_level_plot.png')
+    plt.savefig('sea_level_plot.png', bbox_inches = 'tight')
     return plt.gca()

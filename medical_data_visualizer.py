@@ -61,5 +61,5 @@ def draw_heat_map():
     sns.heatmap(data = corr, mask = mask, linewidths = 0.5)
 
     # 16
-    fig.savefig('heatmap.png')
+    fig.savefig('heatmap.png', bbox_inches = 'tight')
     return fig
